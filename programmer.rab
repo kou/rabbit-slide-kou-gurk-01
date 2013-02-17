@@ -1,0 +1,26 @@
+= プログラマー
+
+: author
+   須藤功平
+: institution
+   株式会社クリアコード
+: content-source
+   ぐんまRuby会議01
+: date
+   2013/03/09
+: allotted-time
+   20m
+: theme
+   clear-code
+
+= 最初のスライド
+
+  * 項目1
+  * 項目2
+  * 項目3
+
+= 二番目のスライド
+
+  # image
+  # src = https://raw.github.com/rabbit-shocker/rabbit/master/sample/lavie.png
+  # relative_height = 100
