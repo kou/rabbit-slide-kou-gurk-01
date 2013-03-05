@@ -13,14 +13,137 @@
 : theme
    clear-code
 
-= 最初のスライド
+= はじめに
 
-  * 項目1
-  * 項目2
-  * 項目3
+どうして\n
+プログラマーか
 
-= 二番目のスライド
+= 理由
 
-  # image
-  # src = https://raw.github.com/rabbit-shocker/rabbit/master/sample/lavie.png
-  # relative_height = 100
+プログラミングが\n好きだから
+
+= プログラマーとして
+
+何をしたいか
+
+= したいこと
+
+同じことで\nつまづく人を\n少なくしたい
+
+= いずれ
+
+自分が\n必要なくなる\nときが\nくるだろう
+
+= 同じく
+
+会社で\nやっている\nことも
+
+= それはとてもうれしいこと
+
+そうなったら\nいいなぁ
+
+= では
+
+つまづく人を\n少なくするために\nどうするか
+
+= どうするか
+
+問題を\n回避しない
+
+= そうじゃなくて
+
+原因を直す
+
+= ごまかさない
+
+自分が回避すると\n
+他の人も回避しないといけない
+
+= 例えば
+
+ドキュメントに書くのは回避
+
+= つまづくポイント
+
+ドキュメントを\n書かないと\nわからない
+
+= 気づいた時
+
+見逃さない\n
+それが大事
+
+= 回避でごまかさない
+
+原因を調べる
+
+= そのために
+
+ソースコードが\n必要
+
+= だから
+
+フリー\nソフトウェアが\nいい
+
+= だって
+
+直せるから
+
+= だから
+
+私は\nフリー\nソフトウェア\nプログラマー
+
+= いつも
+
+趣味でも\n仕事でも
+
+= 例
+
+test-unit 2
+
+= test-unit
+
+  * test/unit: 標準添付
+    * minitestのラッパー
+  * test-unit 2: gem
+    * 1.8のtest/unitの超改良版
+
+= 1.9
+
+  # coderay ruby
+  require "test/unit" 
+  #-> minitestラッパー
+
+= 2.0
+
+  # coderay ruby
+  require "test/unit" 
+  #-> gem
+
+= 1.9: 回避1
+
+  # coderay ruby
+  require "test-unit" 
+  #-> gem
+
+= 1.9: 回避2
+
+  # coderay ruby
+  gem "test-unit"
+  require "test/unit" 
+  #-> gem
+
+= 2.0: 原因を直す
+
+(('tag:center'))(('tag:x-large'))default gem対応
+
+  * 札幌Ruby会議2013にて
+  * 目の前にRubyGems作者が
+  * 私がやるよ！
+
+= まだまだ
+
+実践\nできていない\nこともある
+
+= これからも
+
+プログラマー\nとして\nやっていく
