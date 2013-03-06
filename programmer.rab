@@ -96,9 +96,74 @@
 
 趣味でも\n仕事でも
 
-= 例
+= あれ？
 
-test-unit 2
+Rubyは？
+
+= 第2部
+
+Ruby\nプログラマー\nとして
+
+= Ruby
+
+応援したい言語
+
+= どうやって？
+
+使う\n
+直す\n
+作る
+
+= 使う
+
+ちょっとした\nツールを\n作るために
+
+= 直す
+
+REXML\n
+(('note:今では私がメンテナー'))
+
+= 直す
+
+RubyGems\n
+(('note:今では私もコミッター'))
+
+= 作る
+
+アプリ\n
+ライブラリー
+
+= アプリ
+
+RWiki\n
+Rabbit\n
+るりまサーチ
+
+= ライブラリー
+
+RSS Parser
+
+= ライブラリー
+
+Subversion\nバインディング
+
+= ライブラリー
+
+rcairo\n
+Ruby/RSVG\n
+Ruby/Poppler
+
+= ライブラリー
+
+rroonga
+
+= おまけ
+
+RubyGemsに\n何をしたか
+
+= RubyGems 2.0.0
+
+default gem対応
 
 = test-unit
 
@@ -137,12 +202,12 @@ test-unit 2
 (('tag:center'))(('tag:x-large'))default gem対応
 
   * 札幌Ruby会議2013にて
-  * 目の前にRubyGems作者が
+  * 目の前にRubyGems開発者が
   * 私がやるよ！
 
-= まだまだ
+= おまけ
 
-実践\nできていない\nこともある
+おわり
 
 = これからも
 
