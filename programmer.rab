@@ -13,6 +13,124 @@
 : theme
    clear-code
 
+= テーマ
+
+  puts "Hello, World!"
+
+= 内容
+
+  # blockquote
+  Rubyに関わり見てきた世界、ソフトウェア開発に対する世界観などを語って頂きます。
+
+= Rubyに…
+
+  # blockquote
+  ((*Rubyに関わり見てきた世界*))、ソフトウェア開発に対する世界観などを語って頂きます。
+
+= 私にとってのRuby
+
+応援したい言語
+
+= どうやって？
+
+  * Rubyを作る
+  * Rubyを直す
+  * Rubyを使う
+
+= どうやって？
+
+  * Rubyを作る
+  * Rubyを直す
+  * Rubyを((*使う*))
+
+= ケース1
+
+日常の\nスクリプト言語\nとして
+
+= 日常
+
+プログラミング
+
+= 例1
+
+テストツール
+
+= テストツール
+
+  * groonga
+    * 全文検索エンジン: C/C++
+    * 専用クエリー言語アリ
+  * grntest
+    * groonga専用テストツール: Ruby
+    * 入力し出力と期待値を比較
+
+= 例2
+
+組み込みの\nスクリプト言語
+
+= 組み込み例1
+
+(('tag:center'))milter manager
+
+  * 迷惑メール対策ソフト: C
+  * 柔軟に設定したい
+  * 設定部分: Ruby
+
+= 組み込み例2
+
+(('tag:center'))groonga
+
+  * 全文検索エンジン: C/C++
+  * クエリーオプティマイザーを\n
+    簡単に書きたい！
+  * mruby組み込み（途中）
+
+= 例3
+
+バインディング
+
+= バインディング例1
+
+(('tag:center'))milter manager
+
+  * 迷惑メール対策ソフト: C
+  * Rubyでmilter作れると\n
+    （私が）うれしいって！
+    * → Ruby milter
+
+= Ruby milter
+
+  * milter案件では結構使っている
+    * 5件中3件
+    * 最初の打ち合わせ時に\n
+      プロトタイプを持っていく
+  * milterを作るために\n
+    Rubyを始めた人も！
+
+= バインディング例2
+
+(('tag:center'))groonga
+
+  * 全文検索エンジン: C/C++
+  * Rubyから簡単に使えると\n
+    ユーザー増えますって！
+    * → rroonga
+    * → Milkode
+
+= Rubyの使い方まとめ
+
+  * テスト大変だわ…
+    * → Rubyでツール作っておきました！
+  * 柔軟性が欲しい！
+    * → Ruby組み込んでおきました！
+  * …（気づかないうちに）…
+    * → バインディング作っときました！
+
+= …世界観
+
+  # blockquote
+  Rubyに関わり見てきた世界、((*ソフトウェア開発に対する世界観*))などを語って頂きます。
+
 = はじめに
 
 どうして\n
@@ -69,8 +187,7 @@
 
 = 気づいた時
 
-見逃さない\n
-それが大事
+見てみぬふりをしない
 
 = 回避でごまかさない
 
@@ -96,119 +213,17 @@
 
 趣味でも\n仕事でも
 
-= あれ？
-
-Rubyは？
-
-= 第2部
-
-Ruby\nプログラマー\nとして
-
-= Ruby
-
-応援したい言語
-
-= どうやって？
-
-使う\n
-直す\n
-作る
-
-= 使う
-
-ちょっとした\nツールを\n作るために
-
-= 直す
-
-REXML\n
-(('note:今では私がメンテナー'))
-
-= 直す
-
-RubyGems\n
-(('note:今では私もコミッター'))
-
-= 作る
-
-アプリ\n
-ライブラリー
-
-= アプリ
-
-RWiki\n
-Rabbit\n
-るりまサーチ
-
-= ライブラリー
-
-RSS Parser
-
-= ライブラリー
-
-Subversion\nバインディング
-
-= ライブラリー
-
-rcairo\n
-Ruby/RSVG\n
-Ruby/Poppler
-
-= ライブラリー
-
-rroonga
-
-= おまけ
-
-RubyGemsに\n何をしたか
-
-= RubyGems 2.0.0
-
-default gem対応
-
-= test-unit
-
-  * test/unit: 標準添付
-    * minitestのラッパー
-  * test-unit 2: gem
-    * 1.8のtest/unitの超改良版
-
-= 1.9
-
-  # coderay ruby
-  require "test/unit" 
-  #-> minitestラッパー
-
-= 2.0
-
-  # coderay ruby
-  require "test/unit" 
-  #-> gem
-
-= 1.9: 回避1
-
-  # coderay ruby
-  require "test-unit" 
-  #-> gem
-
-= 1.9: 回避2
-
-  # coderay ruby
-  gem "test-unit"
-  require "test/unit" 
-  #-> gem
-
-= 2.0: 原因を直す
-
-(('tag:center'))(('tag:x-large'))default gem対応
-
-  * 札幌Ruby会議2013にて
-  * 目の前にRubyGems開発者が
-  * 私がやるよ！
-
-= おまけ
-
-おわり
-
 = これからも
 
 プログラマー\nとして\nやっていく
+
+= これが
+
+私の世界
+
+= あわよくば
+
+仲間を\n増やしたい\n
+(('note:コミットへのコメントサービス'))\n
+(('note:インターンシップ'))\n
+(('note:開発者募集中'))
